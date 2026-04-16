@@ -1,0 +1,13 @@
+2a:
+git branch
+git switch NewBranch(if exists else) git checkout -b NewBranch
+touch merge.c
+git add .
+git stash
+git checkout master
+ls
+git stash list
+git stash apply stash@{0}
+git commit -m "hello"
+2b:
+git clone "https://...."
