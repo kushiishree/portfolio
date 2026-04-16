@@ -1,9 +1,8 @@
 1a:
-git init<project directory>
-cd project name 
+git init
 touch helloworld.c 
 git add helloworld.c 
-git commit -m "files" 
+git commit -m "files" (10 commits)
 git status 
 git log
 1b:
