@@ -1,0 +1,17 @@
+5a
+git init
+git checkout -b master/main
+do 10 commits(gedit 1.c, git add . , git commit -m "1") same way 10 times 
+git log --oneline
+git show <commit-id>
+5b
+same as 5a steps
+git log --author="ur email" --since="yesterday date" --until="tdy date(yyyy-mm-dd)" --oneline
+do 10 commits for all do git init at start
+
+a = 5
+b = 10
+
+sum = a + b
+
+print("Sum =", sum)
