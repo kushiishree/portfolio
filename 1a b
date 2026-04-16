@@ -1,0 +1,17 @@
+1a:
+git init<project directory>
+cd project name 
+touch helloworld.c 
+git add helloworld.c 
+git commit -m "files" 
+git status 
+git log
+1b:
+git branch feature-branch
+git switch feature-branch
+gedit swap.c
+git add swap.c
+git commit -m "swap"
+git checkout master
+git merge feature-branch
+git log
