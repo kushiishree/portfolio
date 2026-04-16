@@ -1,0 +1,38 @@
+4a
+git init
+git checkout -b main
+notepad file1.txt
+git add file1.txt
+git commit -m "commit 1"
+notepad file1.txt
+git add file1.txt
+git commit -m "commit 2"
+notepad file1.txt
+git add file1.txt
+git commit -m "commit 3"
+# keep editing same file and committing
+# repeat till commit 10
+git log
+git tag v1.0
+git log
+git push origin main(if it does not push then pull clear the conflicts, add, commit then pull agian and push)
+git push origin v1.0
+4b
+git init
+git checkout -b main
+git checkout -b source-branch
+touch f1.txt
+git add f1.txt
+git commit -m "commit 1"
+notepad f1.txt
+git add f1.txt
+git commit -m "commit 2"
+notepad f1.txt
+git add f1.txt
+git commit -m "commit 3"
+git checkout main
+git log source-branch --oneline
+git cherry-pick <start-commit>^..<end-commit>
+git log --oneline
+
+if u wanna delete smtg rm -rf file name
