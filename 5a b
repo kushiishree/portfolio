@@ -9,9 +9,18 @@ same as 5a steps
 git log --author="ur email" --since="yesterday date" --until="tdy date(yyyy-mm-dd)" --oneline
 do 10 commits for all do git init at start
 
-a = 5
-b = 10
 
-sum = a + b
+prgm:
+#include <stdio.h>
 
-print("Sum =", sum)
+int main() {
+    int num1 = 10, num2 = 20, sum;
+
+    sum = num1 + num2;
+
+    printf("First number = %d\n", num1);
+    printf("Second number = %d\n", num2);
+    printf("Sum = %d\n", sum);
+
+    return 0;
+}
