@@ -35,4 +35,3 @@ git log source-branch --oneline
 git cherry-pick <start-commit>^..<end-commit>
 git log --oneline
 
-if u wanna delete smtg rm -rf file name
